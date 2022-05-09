@@ -1,0 +1,32 @@
+.navbar-container1{
+    margin: 0 auto;
+}
+.navbar-text-1{
+    color: white !important;
+    margin: 0 auto;
+}
+.navbar-text-1 p{
+    margin: 0 auto;
+    padding-right: 2vw;
+    font-family: Nunito,Helvetica,Arial,sans-serif !important;
+    font-weight: 100;
+}
+.blink{
+    padding: 5px;
+    animation: blinker 1.2s linear infinite;
+}
+.btn-navbar1{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+@keyframes blinker {
+    0%{opacity: 1.0;}
+    50%{opacity: 0.1;}
+    100%{opacity: 1.0;}    
+}
+@media screen and (max-width: 1000px) {
+    .navbar-text-1{
+        flex-direction: column;
+    }
+}

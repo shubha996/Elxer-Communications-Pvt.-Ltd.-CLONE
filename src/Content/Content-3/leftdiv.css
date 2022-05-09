@@ -1,0 +1,14 @@
+.left-div{
+    color: #fff;
+    width: 35%;
+    padding: 3%;
+}
+h3{
+    font-weight: 700;
+}
+@media screen and (max-width: 750px) {
+    .left-div{
+            width: 100%;;
+    }
+    
+}

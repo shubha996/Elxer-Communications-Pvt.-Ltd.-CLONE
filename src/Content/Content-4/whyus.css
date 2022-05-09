@@ -1,0 +1,15 @@
+#heading h2{
+    font-weight: 700;
+}
+#heading{
+    text-align: center;
+    padding: 40px;
+}
+.whyus{
+    background-image: url('../../Assets/Images/dots-bg.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,50 @@
+.top-area{
+    background-image: url('../Assets/Images/background-lines.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 10vh;
+    display: flex;
+    align-items: center;
+}
+#get-started-btn{
+    display: block;
+    margin: 0 auto;
+}
+.heading-div{
+    color: white;
+}
+h2{
+    font-weight: 600;
+}
+h4{
+    font-size: larger;
+}
+#top-area-btn{
+    background-color: #444;
+    color: white;
+    font-size: smaller;
+    font-weight: 600;
+    height: 5vh;
+    width: 10vw;
+    border: none;
+    border-radius: 5px;
+}
+#main-footer-container{
+    height: 100vh;
+}
+#logo-elxer{
+    font-family: Outer-Zone !important;
+    font-size: 30px;
+    color: #0077db;
+}
+#logo-div{
+    padding-left: 10%;
+}
+@font-face {
+    font-family: Outer-Zone;
+    src: url('../Assets/outer-zone/Outer_zone.ttf');
+}
+@media screen {
+    
+}

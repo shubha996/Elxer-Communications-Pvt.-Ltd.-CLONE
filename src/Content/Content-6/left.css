@@ -1,0 +1,35 @@
+.left-comment{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+.comments-carousel{
+    width: 100%;
+    padding: 10%;
+    border: 1px solid black;
+}
+.user-details-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    border: 1px solid black;
+}
+#avatar-img{
+    height: 60px;
+    width: 60px;
+}
+.main-comments-card-div{
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 20px rgb(255 255 255 / 10%);
+
+}
+#comments-section-carousel-indicator #carousel-indicator{
+    display: none;
+}
+#comment-section-img{
+    height: 5vh;
+    width: 5vw;
+}

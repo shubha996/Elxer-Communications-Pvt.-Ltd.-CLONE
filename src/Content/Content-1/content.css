@@ -1,0 +1,15 @@
+.carousel-indicators button{
+    height: 10px !important;
+    width: 10px !important;
+    border: 2px !important;
+    background-color: #333 !important;
+    border-radius: 50%;
+}
+.carousel-indicators button.active{
+    height: 10px;
+    width: 70px !important;
+    border-radius: 10px;
+}
+.carousel-control-next, .carousel-control-prev{
+    display: none;
+}

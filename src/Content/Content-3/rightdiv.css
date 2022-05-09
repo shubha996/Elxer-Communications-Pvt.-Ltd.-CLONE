@@ -1,0 +1,68 @@
+.right-div{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 24px rgb(0 0 0 / 6%);
+    padding: 3%;
+    width: 35%;
+    margin-top: 2%;
+}
+.right-div h4{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+#registration-form p{
+    font-size: 1.1rem;
+    color: #233141;
+}
+#reg-form input{
+    padding: 15px;
+    width: 100%;
+    border: 0.5px solid #233141;
+    border-radius: 40px;
+}
+#getotp-btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: #233141;
+    color: #fff;
+    border-radius: 40px;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+.input-field{
+    position: relative;
+}
+#input-req{
+    font-size: 12px;
+}
+
+/* PAYMENTS METHODS DIV */
+.heading h5{
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: medium;
+}
+.svg-div{
+    display: flex;
+}
+.payment-method-symbol-text-div{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.payment-method-symbol-text-div p{
+    font-size: 0.80rem;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 750px) {
+    .right-div{
+            width: 100%;;
+    }
+    
+}

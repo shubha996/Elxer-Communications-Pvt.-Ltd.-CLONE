@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Outer_Zone;
+    src: url('../Assets/outer-zone/Outer_zone.ttf');
+}
+.navbar-3{
+    background-color: white !important;
+}
+.navbar-3-btn{
+    border: .2px solid black !important;
+    height: 35px;
+    transition: all 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navbar-3-btn:hover{
+    background-color: #444;
+    color: white;
+}
+.navlink{
+    color: black !important;
+}
+#logo-link{
+    text-decoration: none;
+    color: #0077db;
+}
+#elxer-logo{
+    font-family: Outer_Zone !important;
+    font-size: 30px;
+    margin-bottom: 0%;
+    animation: textSpacing 3s 1 linear forwards;
+}
+@keyframes textSpacing {
+    0%{letter-spacing: 0px;}
+    50%{letter-spacing: 10px;}
+    100%{letter-spacing: 20px;}
+}
+#below-logo{
+    font-size: 17px;
+    color: black;
+}
+.listItem{
+    list-style: none;
+    padding: 0px 20px;
+}
+.listItem a{
+    text-decoration: none;
+    color: black !important;
+    font-weight: 600;
+}
+.listItem a:hover{
+    color: black !important;
+}
+#link{
+    border-bottom: 2px solid black;
+    padding: 5px 0px;
+}
+#newbtn3{
+    margin-left: 15px;
+}
+.iva-mobile-menue{
+    display: none;
+}

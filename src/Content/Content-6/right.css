@@ -1,0 +1,35 @@
+.right-comment{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 2%;
+}
+.credits-div{
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    overflow: hidden;
+    padding: 2%;
+}
+.left-logo {
+    animation: scroll 25s infinite linear;
+}
+.right-logo{
+    animation: scroll 25s infinite linear;
+}
+@keyframes scroll {
+    0% {transform: translateY(0);}
+    100% {transform: translateY(-50%);}
+}
+.happy-customers-logo img{
+    height: 15vh;
+    padding: 5%;
+}
+.right-comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-comment{
+    width: 40vw;
+}
