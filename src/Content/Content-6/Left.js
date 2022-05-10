@@ -6,13 +6,15 @@ import data from "../../Assets/Comments";
 function Left() {
   return (
     <div className="left-comment">
-        <h2>
-          Don't just take our word for it...
-          <br />
-          see what others have to say.
-        </h2>
+        <div className="heading">
+          <h2>
+            Don't just take our word for it...
+            <br />
+            see what others have to say.
+          </h2>
+        </div>
         <div className="comments-carousel">
-          <Carousel id='comments-section-carousel-indicator'>
+          <Carousel>
             {data.map((fetch) => {
               return (
                 <Carousel.Item interval={1000}>
@@ -24,7 +26,7 @@ function Left() {
                         alt=""
                       />
                     </div>
-                    <div className="coment-div">
+                    <div className="comment-div">
                       <p>{fetch.comment}</p>
                     </div>
                     <div className="user-details-div">

@@ -1,0 +1,6 @@
+.copyright-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 12px;
+}

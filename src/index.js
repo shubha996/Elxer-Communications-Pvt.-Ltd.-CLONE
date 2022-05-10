@@ -11,7 +11,8 @@ import Registration from './Content/Content-3/Registration';
 import WhyUs from './Content/Content-4/WhyUs';
 import JoinUs from './Content/Content-5/JoinUs';
 import HappyCustomers from './Content/Content-6/HappyCustomers';
-// import Footer from './Footer/Footer';
+import Footer from './Footer/Footer';
+import Copyright from './Copyright and T&C/Copyright';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,9 +26,7 @@ root.render(
     <WhyUs />
     <JoinUs />
     <HappyCustomers/>
-
-    {/* 
-    
-    <Footer /> */}
+    <Footer />
+    <Copyright />
   </React.StrictMode>
 );

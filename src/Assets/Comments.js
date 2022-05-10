@@ -8,7 +8,7 @@ var data = [
     {
         name: "shravan",
         starrating: 5,
-        comment: "I have been using this from last 1 month and i am very happy and satisfied with the service. I haven't experienced any downtime yet.Just gave 4 star because there is always a room for improvement. "
+        comment: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quisquam ipsa accusamus saepe deleniti, cum dolor incidunt, itaque nemo quasi aperiam modi accusantium suscipit at nisi sunt cupiditate exercitationem ex."
     },
     {
         name: "abhishek",

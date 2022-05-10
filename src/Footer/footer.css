@@ -3,12 +3,11 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    padding: 10vh;
+    padding: 50px 100px;
     display: flex;
     align-items: center;
 }
 #get-started-btn{
-    display: block;
     margin: 0 auto;
 }
 .heading-div{
@@ -18,15 +17,16 @@ h2{
     font-weight: 600;
 }
 h4{
-    font-size: larger;
+    font-size: 1.15em;
+    font-weight: 400;
 }
 #top-area-btn{
     background-color: #444;
     color: white;
-    font-size: smaller;
+    font-size: 15px;
     font-weight: 600;
-    height: 5vh;
-    width: 10vw;
+    height: 40px;
+    width: 160px;
     border: none;
     border-radius: 5px;
 }
@@ -45,6 +45,83 @@ h4{
     font-family: Outer-Zone;
     src: url('../Assets/outer-zone/Outer_zone.ttf');
 }
-@media screen {
-    
+
+
+
+#two-span{
+    display: flex;
+}
+.footer-div-components{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-div-components h3{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.footer-div-components p{
+    font-size: 14px;
+}
+.listening{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#number{
+    font-size: 20px;
+    font-weight: 800;
+}
+#btn-footer{
+    height: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #08ca73;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+}
+#text-top{
+    font-size: 20px;
+    font-weight: 700;
+}
+.right-listening{
+    margin-left: 20px;
+}
+.refer{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px;
+}
+#text-top-refer{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+.fourth-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#iframe-elxer{
+    box-shadow: 0 0 10px rgb(200 200 200);
+}
+@media screen and (max-width: 850px) {
+    .footer-div-components{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

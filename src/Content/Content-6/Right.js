@@ -4,12 +4,19 @@ import './right.css';
 function Right() {
   return (
       <div className="right-comment">
-        <h2>Happy Customers. Happy Us.</h2>
-        <p>A few of our happy customers!</p>
+        <div className="heading">
+          <h2>Happy Customers. Happy Us.</h2>
+          <p>A few of our happy customers!</p>
+        </div>
         <div className="happy-customers-logo">
           <div className="credits-div">
             <div className="left-logo">
-              {/* <div><img src="https://elxer.com/assets/images/clients/client-12.svg" alt="" /></div> */}
+              <div>
+                <img 
+                  src="https://elxer.com/assets/images/clients/client-12.svg" 
+                  alt="" 
+                />
+              </div>
               <div>
                 <img
                   src="https://elxer.com/assets/images/clients/client-1.svg"
@@ -60,6 +67,13 @@ function Right() {
                   alt=""
                 />
               </div>
+              <div>
+                <img
+                  src="https://elxer.com/assets/images/clients/client-11.svg"
+                  alt=""
+                />
+              </div>
+              
             </div>
           </div>
         </div>
